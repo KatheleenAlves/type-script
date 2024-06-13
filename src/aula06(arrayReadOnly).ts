@@ -7,13 +7,13 @@ let n1: number[] = [
 
 //FORMA DE ARRAY 2:
 //| : union types
-let n2:Array<number | string>=[
+let n2: Array<number | string> = [
     20,
     30
 ]
 
 //FORMA DE ARRAY 3:
-let n3:(number | string)[]=[
+let n3: (number | string)[] = [
     20,
     30
 ]
@@ -32,7 +32,7 @@ n1.shift()
 console.log(n1)
 
 //ARRAY READ ONLY: descarta todos os métodos, como alteração, adicionar e tals, modificação n é permitida
-let numeros_ro: ReadonlyArray<number>=[
+let numeros_ro: ReadonlyArray<number> = [
     100,
     200,
     300
@@ -40,5 +40,6 @@ let numeros_ro: ReadonlyArray<number>=[
 
 console.log(numeros_ro)
 
-numeros_ro.push()
-numeros_ro.unshift()
+// numeros_ro.push()
+// numeros_ro.unshift()
+

@@ -32,5 +32,5 @@ let numeros_ro = [
     300
 ];
 console.log(numeros_ro);
-numeros_ro.push();
-numeros_ro.unshift();
+// numeros_ro.push()
+// numeros_ro.unshift()
